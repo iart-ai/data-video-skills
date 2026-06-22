@@ -18,6 +18,33 @@ Turn a deck or slide outline into a narrated, auto-advancing animated video. Eac
 
 A screen-recording inherits the deck's static look, mouse jitter, and abrupt slide cuts. Rebuilding in code (Remotion) buys: per-frame-deterministic reveals, transitions that actually ease, text that stays crisp at any resolution, and slide durations driven by audio length. The deck becomes the *script*; the video is a new artifact.
 
+## Narrative flow: the deck is one argument, not N slides
+
+Before timing or motion, fix the *story*. A presentation video that advances itself has no presenter to recover a lost thread — the structure must carry the logic on its own. Build the spine first; slides are beats on it.
+
+- **One throughline (the spine).** State the deck's single takeaway in one sentence. Every slide must advance that sentence; if a slide doesn't, cut it or move it to an appendix. The viewer should be able to recount the spine after one watch.
+- **One message per slide.** A slide makes exactly one point — its title *is* that point, phrased as a claim ("Churn is our real growth tax"), not a label ("Churn"). Two ideas means two slides.
+- **Transitions carry logic, not just motion.** The cut between slides should answer "so what's next?" — therefore, but, which means, here's the proof. Match the motion to the logical move: a quiet fade for "and also", a bigger section push for "new act". A transition that doesn't mark a logical step is just decoration.
+- **Open with a hook, close with a CTA.** The first slide earns attention in ~5s — a sharp question, a surprising stat, the stakes — not an agenda or a logo hold. The last slide states the single action you want ("Start the pilot", "Invest $2M for 15%"), held still as the takeaway frame.
+
+### Tension → resolution (the pitch spine)
+
+A pitch is a drama, not a feature list. Sequence it so tension rises, then resolves — each act sets up the next.
+
+| Act | Beat | Job |
+|---|---|---|
+| Problem | "Here's what's broken / at stake" | Create tension the viewer feels |
+| Insight | "Here's what everyone misses" | The non-obvious turn; earn the solution |
+| Solution | "Here's our answer" | Resolve the tension the problem built |
+| Proof | "Here's why it works" | Traction, demo, numbers |
+| Ask | "Here's what we want" | One concrete CTA |
+
+Don't reveal the solution before the problem has landed — an unearned solution feels like a feature, not a relief. Map your slides onto these acts; if an act is missing the argument has a hole.
+
+### Pacing: keep the build in sync with the voice
+
+The throughline plays out in time, so on-screen build and VO must advance together — narration owns the clock (next section), and reveals are scheduled against it so the viewer reads the line *as it's spoken*, never ahead. One message per slide makes this natural: a slide carries one point for exactly as long as the voice argues it, then the transition marks the logical step to the next. Long narration on one point means split the slide, not race the build.
+
 ## The one rule: narration owns the clock
 
 **Each slide lasts exactly as long as its narration audio, plus a small handle.** Measure every voiceover clip's real duration, convert to frames, and make that the slide's length. Never eyeball "this slide feels like ~5s" — it always drifts and the audio gets cut off or runs dry.
