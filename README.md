@@ -1,6 +1,6 @@
 # Data Video Skills
 
-> Data video / animated infographic skills for Claude Code — turn a CSV into a chart that moves, with exact, accurate numbers on every frame.
+> Data video / animated infographic skills for AI coding agents — turn a CSV into a chart that moves, with exact, accurate numbers on every frame.
 
 ## Install
 
@@ -8,7 +8,7 @@
 npx skills add iart-ai/data-video-skills
 ```
 
-Works with Claude Code + 40+ agents.
+Works with Claude Code, Cursor, Codex, GitHub Copilot, and 40+ agents.
 
 ## What's included
 
